@@ -1,0 +1,85 @@
+body{
+	
+	color: #11851E;
+}
+h1{
+	background-image: url(green.jpg);
+	background-position: center;
+	opacity: 1;
+	padding: 0px;
+	margin: auto;
+	font-size: 80px;
+	color: 	lime;
+	font-family: Brush Script Std, sans-serif;
+	letter-spacing: 3px;
+	border-radius: 15px;
+}
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	padding: 0px;
+	float: left;
+	height: 40px;
+	width: 20%;
+	background-color: black;
+	font-size: 20px; 
+	opacity: .8;
+	text-align: center;
+	margin: 0px;
+	line-height: 40px;
+	border-radius: 15px;
+}
+ul li a:hover{
+	background-color: ;
+
+}
+ul li ul li{
+	display: none;
+	width: 100%
+}
+ul li:hover ul li{
+	display: block;
+	padding-top:0;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: block;
+	font-family: Brush Script Std;
+}
+a:hover{
+	color: #A0FFAA;
+
+}
+.header{
+	border-radius: 10px;
+	background: url(back2.jpg) no-repeat;
+	background-size: cover;
+}
+.text{
+	padding-bottom: 15px;
+}
+
+.mid p{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+
+}
+.allmid {
+	background-image: url(back3.jpg);
+	background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0;
+    padding-top: 10px;
+}
+.footer{
+	background-color: darkgrey
+}
